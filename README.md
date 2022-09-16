@@ -4,6 +4,12 @@
 By `Johnson Matoke <https://github.com/johniez254>`_
 *****************************************************
 
+## Clone the project by running the following bash command:
+
+``` 
+$ git clone https://github.com/johniez254/e-waste.git
+```
+
 An open API for listing all Kenyan counties, constituencies, and their wards
 Get list of Kenyan counties and their respective constituencies and wards
 
@@ -15,7 +21,10 @@ i) Added JWT Token for securing the API (You must be authenticated to access the
 
 ii) Included Swagger Documentation showing all the endpoints and shemas
 
+iii) Included SQL file (***kenya_counties_db*)
+
 # REQUIREMENTS
+
 i)	Spring boot version 2.7.2 or higher
 
 ii) MYSQL Database
@@ -23,6 +32,17 @@ ii) MYSQL Database
 iii) Java Version 18
 
 iv) Optional (Docker)
+
+
+
+
+###############################
+Default Credentials
+###############################
+
+username: **steve**
+
+password: **steve123**
 
 
 
