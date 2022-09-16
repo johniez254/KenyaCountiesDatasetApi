@@ -11,13 +11,12 @@ Current version: 1.0.0
 
 # FEATURES
 
-Added JWT Token for securing the API (You must be authenticated to access the API)
-Included Swagger Documentation showing all the endpoints and shemas
+i) Added JWT Token for securing the API (You must be authenticated to access the API)
+ii) Included Swagger Documentation showing all the endpoints and shemas
 
 # REQUIREMENTS
 i)	Spring boot version 2.7.2 or higher
-Spring boot version 2.7.2 or higher
-MYSQL Database
-Java Version 18
-Optional (Docker)
+ii) MYSQL Database
+iii) Java Version 18
+iv) Optional (Docker)
 
