@@ -21,7 +21,9 @@ i) Added JWT Token for securing the API (You must be authenticated to access the
 
 ii) Included Swagger Documentation showing all the endpoints and shemas
 
-iii) Included SQL file (***kenya_counties_db*)
+iii) Included SQL file (**kenya_counties_db.sql**)
+
+iv) Included dockerfile for easier deployment
 
 # REQUIREMENTS
 
@@ -36,9 +38,7 @@ iv) Optional (Docker)
 
 
 
-###############################
-Default Credentials
-###############################
+## Default Credentials
 
 username: **steve**
 
