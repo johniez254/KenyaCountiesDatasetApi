@@ -7,7 +7,7 @@ By `Johnson Matoke <https://github.com/johniez254>`_
 ## Clone the project by running the following bash command:
 
 ``` 
-$ git clone https://github.com/johniez254/e-waste.git
+$ git clone [https://github.com/johniez254/KenyaCountiesDatasetApi.git](https://github.com/johniez254/KenyaCountiesDatasetApi.git)
 ```
 
 An open API for listing all Kenyan counties, constituencies, and their wards
