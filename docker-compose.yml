@@ -1,0 +1,25 @@
+version: "3"
+services:
+  server:
+    image: kenya-counties-dataset:1.0
+    ports:
+      - "8080:8080"
+    environment:
+      - spring.datasource.url=jdbc:mysql://mysqldb:3306/kenya_counties_db?useSSL=false
+    networks:
+      - springmysql-net
+    depends_on:
+      - mysqldb
+
+  mysqldb:
+    image: mysql:latest
+    networks:
+      - springmysql-net
+    environment:
+      - MYSQL_ROOT_PASSWORD=@O725542o46
+      - MYSQL_DATABASE=kenya_counties_db
+      - MYSQL_USER=johnson
+      - MYSQL_PASSWORD=@O725542o46
+
+networks:
+  springmysql-net:
